@@ -1,0 +1,69 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  background-image: url(https://images.pexels.com/photos/210143/pexels-photo-210143.jpeg);
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 1000px;
+  background-attachment: scroll;
+  background-position: unset;
+}
+
+.first {
+  position: absolute;
+  /* display: inline-block; usnig for control dispaly  */
+  color: azure;
+  border: 3px solid rebeccapurple;
+  top: 15px;
+  left: 40px;
+}
+.first img {
+  width: 120px;
+}
+.first div {
+  text-align: center;
+}
+
+.second {
+  margin: 15px auto;
+  width: 30%;
+  color: azure;
+  border: 3px solid rgb(156, 150, 162);
+}
+
+.navbar li {
+  display: inline-block;
+  font-size: medium;
+}
+.navbar li a {
+  color: aliceblue;
+  text-decoration: none;
+  padding: 15px 10px;
+}
+.navbar li a:hover {
+  color: rgb(41, 62, 62);
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.third {
+  position: absolute; /*using for manage text position to parent element*/
+  right: 40px;
+  top: 15px;
+  display: inline-block;
+  border: 3px solid rgb(47, 45, 48);
+  color: azure;
+}
+
+input[type="text"] {
+  padding: 5px 10px;
+}
+::placeholder {
+  font-size: medium;
+  font-weight: bold;
+}
+.fas fa-search {
+  font-size: 25px;
+}
